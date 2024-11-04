@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		DB1F16432CD248E10005A73D /* challege2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16422CD248E10005A73D /* challege2App.swift */; };
-		DB1F16452CD248E10005A73D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16442CD248E10005A73D /* ContentView.swift */; };
 		DB1F16472CD248E20005A73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1F16462CD248E20005A73D /* Assets.xcassets */; };
 		DB1F164A2CD248E20005A73D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1F16492CD248E20005A73D /* Preview Assets.xcassets */; };
+		DB1F16512CD248FD0005A73D /* laibary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16502CD248FD0005A73D /* laibary.swift */; };
+		DB1F16572CD249F20005A73D /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16562CD249F20005A73D /* splash.swift */; };
+		DB1F167D2CD260B10005A73D /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F167C2CD260B10005A73D /* plant.swift */; };
+		DB4038262CD2765800D34467 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4038252CD2765800D34467 /* add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB1F163F2CD248E00005A73D /* challege2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challege2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1F16422CD248E10005A73D /* challege2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challege2App.swift; sourceTree = "<group>"; };
-		DB1F16442CD248E10005A73D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB1F16462CD248E20005A73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1F16492CD248E20005A73D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB1F16502CD248FD0005A73D /* laibary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laibary.swift; sourceTree = "<group>"; };
+		DB1F16562CD249F20005A73D /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
+		DB1F167C2CD260B10005A73D /* plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant.swift; sourceTree = "<group>"; };
+		DB4038252CD2765800D34467 /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				DB1F16422CD248E10005A73D /* challege2App.swift */,
-				DB1F16442CD248E10005A73D /* ContentView.swift */,
+				DB1F167C2CD260B10005A73D /* plant.swift */,
+				DB4038252CD2765800D34467 /* add.swift */,
+				DB1F16562CD249F20005A73D /* splash.swift */,
+				DB1F16502CD248FD0005A73D /* laibary.swift */,
 				DB1F16462CD248E20005A73D /* Assets.xcassets */,
 				DB1F16482CD248E20005A73D /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1F16452CD248E10005A73D /* ContentView.swift in Sources */,
+				DB1F16572CD249F20005A73D /* splash.swift in Sources */,
+				DB4038262CD2765800D34467 /* add.swift in Sources */,
+				DB1F167D2CD260B10005A73D /* plant.swift in Sources */,
+				DB1F16512CD248FD0005A73D /* laibary.swift in Sources */,
 				DB1F16432CD248E10005A73D /* challege2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
