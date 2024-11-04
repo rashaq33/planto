@@ -1,19 +1,19 @@
-PLANT - TAKE CARE OF THEM TO MAKE THEM LIFE ☘️
+🌱 PLANT - TAKE CARE OF THEM TO MAKE THEM THRIVE ☘️
 ------------------------------------------------
-Welcome to plant app here you will fined a way to take care of your plant .
+Welcome to Planto! Here, you’ll find all the guidance you need to care for your plants effectively.
 
 <img width="827" alt="‏لقطة الشاشة ١٤٤٦-٠٥-٠٢ في ٥ ٢١ ٠٩ م" src="https://github.com/user-attachments/assets/15ec17b4-db02-4f33-93aa-6ff64afb37ad">
 
  📱app Purpose
 ------------------------------------------------
-tha app will helps you track all the details of your plants and provides care instructions.
-At specific times, the app sends you notifications to remind you to take care of your plants.
+Planto helps you keep track of every detail about your plants, providing care instructions and reminders. At scheduled times, the app sends you notifications, so you never miss an important task for your plants’ well-being.
 
 ✨ Features
 ------------------------------------------------
-- Add - You will be able to add new plant in the app with all it details to care of it .
-- check list - there will be check list for all your plant care to mark what you done .
-- Notifications - the app will send Notifications to remind you what task should you do .
+- Add Plants - Easily add new plants, along with detailed information on how to care for them.
+- Checklist - Access a checklist to track and mark completed plant care tasks.
+- Notifications - Get reminders for plant care tasks that need to be done.
+
   
 Screenshots
 ------------------------------------------------
@@ -25,6 +25,21 @@ Screenshots
 <img width="244" alt="‏لقطة الشاشة ١٤٤٦-٠٥-٠٢ في ١٠ ٥٨ ٣٣ م" src="https://github.com/user-attachments/assets/a9ac926a-7b8b-48eb-84d0-292aa73a1f22">
 <img width="244" alt="‏لقطة الشاشة ١٤٤٦-٠٥-٠٢ في ١٠ ٥٨ ٤٨ م" src="https://github.com/user-attachments/assets/3446b65d-7603-4632-a9ba-62b749a4efc5">
 
+🛠️ Installation
+------------------------------------------------
+
+1. Download the Code
+Go to the Planto GitHub repository.
+Click the green Code button, then select Download ZIP.
+Unzip the downloaded file on your computer.
+2. Open in Xcode
+Open the unzipped folder and locate the challege2.xcodeproj file.
+Double-click challege2.xcodeproj to open the project in Xcode.
+3. Build and Run
+In Xcode, select a simulator or connect an iOS device.
+Press Cmd + R to build and run the app.
+Now you’re ready to test Planto locally on your device or simulator!
+
 📬 Contact
 ------------------------------------------------
-If you need additional information or help, please connect on GitHub at rashaq33 or email me at RASHAQ3390@gmail.com.
+For more information or assistance, connect with me on GitHub at rashaq33 or via email at RASHAQ3390@gmail.com.
