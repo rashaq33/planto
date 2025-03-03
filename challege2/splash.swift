@@ -23,7 +23,7 @@ struct splash: View {
     var body: some View {
         if isActive {
             //لو صفحه اشتغلت روح بعدها للصفحه ثانيه
-            plant()
+            PlantListView()
 
         }
         else{
@@ -32,7 +32,7 @@ struct splash: View {
                 
                 
                 VStack{
-                    Image("plant")
+                    Image("planto1")
                         .resizable()
                         .frame(width: 120,height: 130)
                        

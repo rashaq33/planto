@@ -10,10 +10,12 @@
 		DB1F16432CD248E10005A73D /* challege2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16422CD248E10005A73D /* challege2App.swift */; };
 		DB1F16472CD248E20005A73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1F16462CD248E20005A73D /* Assets.xcassets */; };
 		DB1F164A2CD248E20005A73D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1F16492CD248E20005A73D /* Preview Assets.xcassets */; };
-		DB1F16512CD248FD0005A73D /* laibary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16502CD248FD0005A73D /* laibary.swift */; };
 		DB1F16572CD249F20005A73D /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F16562CD249F20005A73D /* splash.swift */; };
 		DB1F167D2CD260B10005A73D /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F167C2CD260B10005A73D /* plant.swift */; };
 		DB4038262CD2765800D34467 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4038252CD2765800D34467 /* add.swift */; };
+		DBAEA92F2D75CC070021C288 /* edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEA92E2D75CC020021C288 /* edit.swift */; };
+		DBAEA9312D75CC230021C288 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEA9302D75CC1E0021C288 /* Model.swift */; };
+		DBAEA9332D75CC520021C288 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEA9322D75CC470021C288 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +23,12 @@
 		DB1F16422CD248E10005A73D /* challege2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challege2App.swift; sourceTree = "<group>"; };
 		DB1F16462CD248E20005A73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1F16492CD248E20005A73D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DB1F16502CD248FD0005A73D /* laibary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laibary.swift; sourceTree = "<group>"; };
 		DB1F16562CD249F20005A73D /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
 		DB1F167C2CD260B10005A73D /* plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant.swift; sourceTree = "<group>"; };
 		DB4038252CD2765800D34467 /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		DBAEA92E2D75CC020021C288 /* edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edit.swift; sourceTree = "<group>"; };
+		DBAEA9302D75CC1E0021C288 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DBAEA9322D75CC470021C288 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				DB1F16422CD248E10005A73D /* challege2App.swift */,
+				DB1F16562CD249F20005A73D /* splash.swift */,
 				DB1F167C2CD260B10005A73D /* plant.swift */,
 				DB4038252CD2765800D34467 /* add.swift */,
-				DB1F16562CD249F20005A73D /* splash.swift */,
-				DB1F16502CD248FD0005A73D /* laibary.swift */,
+				DBAEA92E2D75CC020021C288 /* edit.swift */,
+				DBAEA9302D75CC1E0021C288 /* Model.swift */,
+				DBAEA9322D75CC470021C288 /* ViewModel.swift */,
 				DB1F16462CD248E20005A73D /* Assets.xcassets */,
 				DB1F16482CD248E20005A73D /* Preview Content */,
 			);
@@ -149,8 +155,10 @@
 				DB1F16572CD249F20005A73D /* splash.swift in Sources */,
 				DB4038262CD2765800D34467 /* add.swift in Sources */,
 				DB1F167D2CD260B10005A73D /* plant.swift in Sources */,
-				DB1F16512CD248FD0005A73D /* laibary.swift in Sources */,
+				DBAEA9312D75CC230021C288 /* Model.swift in Sources */,
 				DB1F16432CD248E10005A73D /* challege2App.swift in Sources */,
+				DBAEA92F2D75CC070021C288 /* edit.swift in Sources */,
+				DBAEA9332D75CC520021C288 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"challege2/Preview Content\"";
+				DEVELOPMENT_TEAM = JVLPJUA9KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"challege2/Preview Content\"";
+				DEVELOPMENT_TEAM = JVLPJUA9KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
